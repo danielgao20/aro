@@ -1,5 +1,5 @@
 import React from "react";
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 
 interface NavItemProps {
   label: string;
