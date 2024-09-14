@@ -11,6 +11,7 @@ const Dashboard: React.FC = () => {
   return (
     <div className="h-screen overflow-y-scroll font-manrope" style={{ backgroundColor: '#F7F7F7' }}>
       <div className="flex justify-between items-center gap-4 h-28 py-6 px-10 border-b border-[#CBCBD5]">
+        {/* search bar */}
         <div className='inline-block relative w-full h-full'>
           <input
             type="text"
@@ -25,6 +26,7 @@ const Dashboard: React.FC = () => {
             className='absolute left-5 inline top-1/2 -translate-y-1/2'
           />
         </div>
+        {/* cole profile */}
         <div className="flex items-center justify-center gap-2.5 bg-aroWhite rounded-md py-2.5 px-5 border-2 border-gray-200 hover:bg-gray-200"> 
           <div className='w-10 h-10 rounded-full bg-[#414172] flex items-center justify-center'>
             <p className='text-xl font-semibold text-center'>C</p>
